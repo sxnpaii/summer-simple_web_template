@@ -1,0 +1,375 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap");
+/* basic params  */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+/* header */
+section.header header nav.navbar .container A.navbar-brand {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #0d4b96;
+}
+section.header
+  header
+  nav.navbar
+  .container
+  .collapse
+  ul.navbar-nav
+  li.nav-item
+  a.nav-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #043f79;
+}
+/* hero ===================================================================================================================*/
+section.header .hero {
+  height: 542px;
+  background: url(./img/phone\ hands.png) no-repeat right bottom,
+    linear-gradient(89.94deg, #043f79 0.07%, #3572a8 48.46%, #043f79 99.96%);
+}
+section.header .hero .container .row .col .soc-links {
+  width: 232px;
+  height: 50px;
+  display: flex;
+  /* background: #1A558D; */
+}
+section.header .hero .container .row .col .soc-links a {
+  width: 58px;
+  height: 50px;
+  background: #1a558d;
+  text-align: center;
+  align-items: center;
+  padding-top: 13px;
+  color: #fff;
+}
+section.header .hero .container .row .col .soc-links a:hover {
+  background: #8cb318;
+  transition: 300ms;
+}
+section.header .hero .container .row .col .caption {
+  width: 446px;
+  height: 200px;
+  margin-top: 50px;
+}
+section.header .hero .container .row .col .caption h2 {
+  font-family: "Signika";
+  font-weight: 400;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+section.header .hero .container .row .col .caption p {
+  font-family: "Signika";
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 13px;
+}
+section.header .hero .container .row .col .iframe_vid {
+  width: 380px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+section.header .hero .container .row .col .iframe_vid iframe {
+  width: 151px;
+  height: 100px;
+}
+section.header .hero .container .row .col .iframe_vid i {
+  rotate: 95deg;
+  font-size: 24px;
+  color: #fff;
+}
+section.header .hero .container .row .col .iframe_vid h4 {
+  font-family: "Waiting for the Sunrise", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ffffff;
+}
+section.header .hero .container .row .col .premium {
+  margin-top: 31px;
+}
+section.header .hero .container .row .col .premium p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+}
+section.header .hero .container .row .col .premium a {
+  border-radius: 0;
+  color: #fff;
+}
+/*  best features ==================================================================================================================================*/
+section.best_features {
+  height: 331px;
+  margin: auto;
+}
+section.best_features .container .row .col h6 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: #043f79;
+  text-transform: uppercase;
+  margin-top: 42px;
+  text-align: center;
+}
+section.best_features .container .row .col .column {
+  margin: auto;
+  justify-content: space-between;
+}
+section.best_features .container .row .col .column .con .icon {
+  width: 205px;
+  height: 114px;
+  background: #f8f8f8;
+  margin: auto;
+  text-align: center;
+}
+section.best_features .container .row .col .column .con .icon i {
+  font-size: 56px;
+  color: #043f79;
+  display: block;
+  width: 73px;
+  height: 73px;
+  margin: 10px auto 0 auto;
+}
+section.best_features .container .row .col .column .con .icon i#ss404 {
+  padding-top: 10px;
+}
+section.best_features .container .row .col .column .con .icon h5 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: #043f79;
+  margin: 7px auto 10px auto;
+}
+section.best_features .container .row .col .column .con {
+  text-align: center;
+  height: 188px;
+  width: 205px;
+  margin: auto;
+}
+section.best_features .container .row .col .column .con p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #5d5d5d;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+/* showcase news========================================================================================================================== */
+section.showcase_news {
+  height: 420px;
+  margin: auto;
+}
+section.showcase_news .container .row .col {
+  justify-content: space-evenly;
+  height: 380px;
+}
+section.showcase_news .container .row .col .showcase {
+  width: 420px;
+}
+section.showcase_news .container .row .col .showcase h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: #043f79;
+  text-transform: uppercase;
+  text-align: center;
+}
+section.showcase_news .container .row .col .showcase .cubes {
+  height: 310px;
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(2, 201px);
+  gap: 17px;
+}
+section.showcase_news .container .row .col .showcase .cubes .con {
+  background: #0e58a1;
+  color: #fff;
+}
+section.showcase_news .container .row .col .showcase .cubes .con button {
+  width: 40px;
+  height: 40px;
+  background: #001d3b;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  border: none;
+}
+section.showcase_news .container .row .col .showcase .cubes .con h4 {
+  /* align-items: center; */
+  margin-top: 20px;
+  text-align: center;
+  font-family: "MuseoModerno";
+  font-weight: 400;
+  font-size: 20px;
+}
+section.showcase_news .container .row .col .news {
+  width: 620px;
+  height: 350px;
+  /* margin-left: 28px; */
+  /* display: flex; */
+}
+section.showcase_news .container .row .col .news h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: #043f79;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 35px;
+}
+section.showcase_news .container .row .col .news .letters {
+  height: 320px;
+}
+section.showcase_news .container .row .col .news .letters .dates {
+  /* width: 57px; */
+  align-content: space-around;
+  display: grid;
+  /* grid-template-columns: repeat(1, 50px); */
+  /* gap: 20px; */
+  height: 320px;
+  margin-right: 22px;
+}
+section.showcase_news .container .row .col .news .letters .dates button {
+  background: none;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: #043f79;
+  /* height: 55px; */
+}
+section.showcase_news .container .row .col .news .letters .dates button span {
+  font-size: 20px;
+  font-weight: 800;
+}
+section.showcase_news .container .row .col .news .letters .texts {
+  padding: 0 0 0 15px;
+  border-left: #043f79 2px solid;
+  height: 320px;
+  display: grid;
+  align-content: space-around;
+}
+section.showcase_news .container .row .col .news .letters .texts .p_block {
+  width: 508px;
+  height: 88px;
+  /* margin-bottom: 14px; */
+}
+section.showcase_news .container .row .col .news .letters .texts .p_block p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  color: #043f79;
+}
+
+/* comments ============================================================================================================== */
+
+.text .container .row .col h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: #043f79;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  width: 100%;
+}
+section.coments {
+  height: 370px;
+  margin: auto;
+  background: #f1f1f1;
+  padding: 23px 0 25px 0;
+}
+section.coments .container .row .col {
+  height: 345px;
+  margin: auto;
+}
+
+section.coments .container .row .col .says {
+  width: 100%;
+  height: 321px;
+  margin: auto;
+  background: #f1f1f1;
+  justify-content: space-around;
+}
+section.coments .container .row .col .says .text {
+  width: 260px;
+  height: 160px;
+  background: #fefefe;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+section.coments .container .row .col .says .text p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  width: 217px;
+  padding: 16px 0 0 24px;
+}
+section.coments .container .row .col .says .users {
+  display: flex;
+  align-items: center;
+  width: 210px;
+  height: 70px;
+  margin: auto;
+  /* justify-content: space-between; */
+}
+section.coments .container .row .col .says .users p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #043f79;
+  padding-left: 25px;
+}
+footer {
+  height: 140px;
+  margin: auto;
+}
+footer .container .row .col .hr-line {
+  width: 1050px;
+  height: 1px;
+  margin: 50px auto 40px auto;
+  background: #043f79;
+}
+footer .container .row .col .copyr {
+  width: 1050px;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+footer .container .row .col .copyr p {
+  font-family: "Roboto";
+  font-size: 13.2px;
+  color: #000000;
+}
+footer .container .row .col .copyr p:not(.temp){
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 13.2px;
+color: #043F79;
+border-left: 3px #686E84 solid;
+padding-left: 9px;
+}
+footer .container .row .col .copyr a{
+  color:  #043F79;
+}
